@@ -1,5 +1,5 @@
-setuptools
-wheel==0.38.4
+setuptools>=57.5.0  # Ensure setuptools is installed
+wheel                 # Allow any version of wheel
 streamlit==1.24.0
 pandas==1.5.3
 numpy==1.24.3
